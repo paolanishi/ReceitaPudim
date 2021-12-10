@@ -1,0 +1,130 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: rgb(53, 39, 39);
+}
+
+html{
+    font-size: 63%;
+}
+
+body{
+    background-color: #bd7474;
+    padding: 60px;
+}
+
+figcaption{
+    text-align: center;
+    font-size: 13px;
+}
+
+h1{
+    text-align: center;
+    margin-top: 2rem;;
+    font-size: 2rem;
+    padding: 2rem 0 2rem 0;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.container{
+    padding: 30px;
+    background-color: #f0c0c0;
+    margin: auto;
+    max-width: 980px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.imgPudim{
+    width: 100%;
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+.imgPudim img{
+    width: auto;
+    height: 80%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.title{
+    font-size: 2rem;
+    text-align: center;
+    padding: 3rem 0 2rem 0;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.ingredientes{
+    margin: auto;
+    width: 100%;
+}
+
+.ingredientes ul{
+    margin-top: 2rem;
+}
+
+.ingredientes ul li{
+    font-size: 1.5rem;
+    margin: 20px;
+}
+
+.modopreparo{
+    margin: auto;
+    width: 100%;
+}
+
+.modopreparo ol{
+    margin-top: 2rem;
+}
+
+.modopreparo ol li{
+    font-size: 1.5rem;
+    margin: 20px;
+    margin-bottom: 25px;
+}
+
+p{
+    width: 300px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 2rem;
+    text-transform: uppercase;
+    font-size: 1.3rem;
+    background-color: rgba(201, 130, 242, 0.533);
+    border-radius: 20px;
+    padding: 10px 20px;
+}
+
+@media (max-width: 900px) {
+    html {
+        font-size: 50%;
+    }
+    body {
+        background-color: #bd7474;
+        padding: 20px;
+    }
+}
+@media (max-width: 500px) {
+    .title {
+        font-size: 2.5rem;
+    }
+    h1 {
+        font-size: 2.5rem;
+    }
+    .imgPudim img {
+        height: 150px;
+        width: 90%;
+    }
+}
+
+
